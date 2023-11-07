@@ -13,17 +13,19 @@ public class Main {
                 Expressao expressao = new Expressao(buffer);
 //
 
-                int numeroProposicoes = expressao.contarProposicoes();
+//                int numeroProposicoes = expressao.contarProposicoes();
 
 //                System.out.println("Numero de proposicoes: " + numeroProposicoes);
 //                System.out.println(expressao.getProposicoes());
-                if(expressao.validarExpressao()){
+                if (expressao.validarExpressao()) {
                     System.out.println();
                     System.out.println("Expressao valida");
-//                    expressao.montarTabela();
-//                    expressao.mostrarTabela();
-                    expressao.mostrarExpressao();
+                    expressao.montarTabela();
+                    expressao.mostrarTabela();
                     System.out.println();
+                }
+                else{
+                    System.out.println("Expressao nao valida");
                 }
 
 

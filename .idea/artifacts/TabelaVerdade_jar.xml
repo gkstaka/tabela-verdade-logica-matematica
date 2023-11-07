@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TabelaVerdade:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TabelaVerdade_jar</output-path>
+    <root id="archive" name="TabelaVerdade.jar">
+      <element id="module-output" name="TabelaVerdade" />
+    </root>
+  </artifact>
+</component>
