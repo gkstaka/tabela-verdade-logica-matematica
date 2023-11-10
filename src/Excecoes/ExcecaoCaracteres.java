@@ -2,6 +2,6 @@ package Excecoes;
 
 public class ExcecaoCaracteres extends Excecao{
     public ExcecaoCaracteres() {
-        super("Expressão inválida");
+        super("Caracteres não válidos detectado");
     }
 }
